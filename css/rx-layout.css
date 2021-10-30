@@ -1,0 +1,465 @@
+/* ==== REXOTHYST CSS LAYOUT ==== */
+/* Global Layout for CSS Stylings */
+/* ============================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* ======== FLEX ======== */
+/* Define Flex */
+.rx-fl {
+  display: flex !important;
+}
+.rx-fl {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+.rx-fl.rx-fl-ce {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Align Item Flex */
+.rx-fl.rx-fl-ai-st {
+  align-items: flex-start !important;
+}
+.rx-fl.rx-fl-ai-en {
+  align-items: flex-end !important;
+}
+.rx-fl.rx-fl-ai-ce {
+  align-items: center !important;
+}
+
+/* Justify Content Flex */
+.rx-fl.rx-fl-jc-st {
+  justify-content: flex-start !important;
+}
+.rx-fl.rx-fl-jc-en {
+  justify-content: flex-end !important;
+}
+.rx-fl.rx-fl-jc-ce {
+  justify-content: center !important;
+}
+.rx-fl.rx-fl-jc-sb {
+  justify-content: space-between !important;
+}
+
+/* Flex Direction */
+.rx-fl.rx-fl-ro {
+  flex-direction: row !important;
+}
+.rx-fl.rx-fl-co {
+  flex-direction: column !important;
+}
+.rx-fl.rx-fl-rr {
+  flex-direction: row-reverse !important;
+}
+.rx-fl.rx-fl-cr {
+  flex-direction: column-reverse !important;
+}
+
+/* ======= GRID ======= */
+/* Grid Define */
+.rx-gr {
+  display: grid !important;
+}
+
+/* Column Set for Grid */
+.rx-gr.rx-gr-co {
+  grid-template-columns: auto !important;
+}
+.rx-gr.rx-gr-co-2 {
+  grid-template-columns: auto auto !important;
+}
+.rx-gr.rx-gr-co-3 {
+  grid-template-columns: auto auto auto !important;
+}
+.rx-gr.rx-gr-co-4 {
+  grid-template-columns: auto auto auto auto !important;
+}
+.rx-gr.rx-gr-co-10-90 {
+  grid-template-columns: calc(10% - 25px) calc(90% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-20-80 {
+  grid-template-columns: calc(20% - 25px) calc(80% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-30-70 {
+  grid-template-columns: calc(30% - 25px) calc(70% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-40-60 {
+  grid-template-columns: calc(40% - 25px) calc(60% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-50-50 {
+  grid-template-columns: calc(50% - 25px) calc(50% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-60-40 {
+  grid-template-columns: calc(60% - 25px) calc(40% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-70-30 {
+  grid-template-columns: calc(70% - 25px) calc(30% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-80-20 {
+  grid-template-columns: calc(80% - 25px) calc(20% - 25px) !important;
+  column-gap: 20px;
+}
+.rx-gr.rx-gr-co-90-10 {
+  grid-template-columns: calc(90% - 25px) calc(10% - 25px) !important;
+  column-gap: 20px;
+}
+
+/* ====== MARGIN ====== */
+/* Define 0 Margin */
+.rx-ma-0 {
+  margin: 0 !important;
+}
+.rx-ma-to-0 {
+  margin-top: 0 !important;
+}
+.rx-ma-le-0 {
+  margin-left: 0 !important;
+}
+.rx-ma-ri-0 {
+  margin-right: 0 !important;
+}
+.rx-ma-bo-0 {
+  margin-bottom: 0 !important;
+}
+.rx-ma-tb-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.rx-ma-lr-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Define Auto Margin */
+.rx-ma-au {
+  margin: auto !important;
+}
+.rx-ma-le-au {
+  margin-left: auto !important;
+}
+.rx-ma-ri-au {
+  margin-right: auto !important;
+}
+.rx-ma-lr-au {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Define 5px Margin */
+.rx-ma-5 {
+  margin: 5px !important;
+}
+.rx-ma-to-5 {
+  margin-top: 5px !important;
+}
+.rx-ma-le-5 {
+  margin-left: 5px !important;
+}
+.rx-ma-ri-5 {
+  margin-right: 5px !important;
+}
+.rx-ma-bo-5 {
+  margin-bottom: 5px !important;
+}
+.rx-ma-tb-5 {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+.rx-ma-lr-5 {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+/* Define 10px Margin */
+.rx-ma-10 {
+  margin: 10px !important;
+}
+.rx-ma-to-10 {
+  margin-top: 10px !important;
+}
+.rx-ma-le-10 {
+  margin-left: 10px !important;
+}
+.rx-ma-ri-10 {
+  margin-right: 10px !important;
+}
+.rx-ma-bo-10 {
+  margin-bottom: 10px !important;
+}
+.rx-ma-tb-10 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.rx-ma-lr-10 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+/* Define 15px Margin */
+.rx-ma-15 {
+  margin: 15px !important;
+}
+.rx-ma-to-15 {
+  margin-top: 15px !important;
+}
+.rx-ma-le-15 {
+  margin-left: 15px !important;
+}
+.rx-ma-ri-15 {
+  margin-right: 15px !important;
+}
+.rx-ma-bo-15 {
+  margin-bottom: 15px !important;
+}
+.rx-ma-tb-15 {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+.rx-ma-lr-15 {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+/* Define 20px Margin */
+.rx-ma-20 {
+  margin: 20px !important;
+}
+.rx-ma-to-20 {
+  margin-top: 20px !important;
+}
+.rx-ma-le-20 {
+  margin-left: 20px !important;
+}
+.rx-ma-ri-20 {
+  margin-right: 20px !important;
+}
+.rx-ma-bo-20 {
+  margin-bottom: 20px !important;
+}
+.rx-ma-tb-20 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.rx-ma-lr-20 {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+/* Define 25px Margin */
+.rx-ma-25 {
+  margin: 25px !important;
+}
+.rx-ma-to-25 {
+  margin-top: 25px !important;
+}
+.rx-ma-le-25 {
+  margin-left: 25px !important;
+}
+.rx-ma-ri-25 {
+  margin-right: 25px !important;
+}
+.rx-ma-bo-25 {
+  margin-bottom: 25px !important;
+}
+.rx-ma-tb-25 {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+.rx-ma-lr-25 {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+
+/* Define 30px Margin */
+.rx-ma-30 {
+  margin: 30px !important;
+}
+.rx-ma-to-30 {
+  margin-top: 30px !important;
+}
+.rx-ma-le-30 {
+  margin-left: 30px !important;
+}
+.rx-ma-ri-30 {
+  margin-right: 30px !important;
+}
+.rx-ma-bo-30 {
+  margin-bottom: 30px !important;
+}
+.rx-ma-tb-30 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.rx-ma-lr-30 {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+/* Define 35px Margin */
+.rx-ma-35 {
+  margin: 35px !important;
+}
+.rx-ma-to-35 {
+  margin-top: 35px !important;
+}
+.rx-ma-le-35 {
+  margin-left: 35px !important;
+}
+.rx-ma-ri-35 {
+  margin-right: 35px !important;
+}
+.rx-ma-bo-35 {
+  margin-bottom: 35px !important;
+}
+.rx-ma-tb-35 {
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
+}
+.rx-ma-lr-35 {
+  margin-left: 35px !important;
+  margin-right: 35px !important;
+}
+
+/* Define 40px Margin */
+.rx-ma-40 {
+  margin: 40px !important;
+}
+.rx-ma-to-40 {
+  margin-top: 40px !important;
+}
+.rx-ma-le-40 {
+  margin-left: 40px !important;
+}
+.rx-ma-ri-40 {
+  margin-right: 40px !important;
+}
+.rx-ma-bo-40 {
+  margin-bottom: 40px !important;
+}
+.rx-ma-tb-40 {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+.rx-ma-lr-40 {
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+/* Define 45px Margin */
+.rx-ma-45 {
+  margin: 45px !important;
+}
+.rx-ma-to-45 {
+  margin-top: 45px !important;
+}
+.rx-ma-le-45 {
+  margin-left: 45px !important;
+}
+.rx-ma-ri-45 {
+  margin-right: 45px !important;
+}
+.rx-ma-bo-45 {
+  margin-bottom: 45px !important;
+}
+.rx-ma-tb-45 {
+  margin-top: 45px !important;
+  margin-bottom: 45px !important;
+}
+.rx-ma-lr-45 {
+  margin-left: 45px !important;
+  margin-right: 45px !important;
+}
+
+/* Define 50px Margin */
+.rx-ma-50 {
+  margin: 50px !important;
+}
+.rx-ma-to-50 {
+  margin-top: 50px !important;
+}
+.rx-ma-le-50 {
+  margin-left: 50px !important;
+}
+.rx-ma-ri-50 {
+  margin-right: 50px !important;
+}
+.rx-ma-bo-50 {
+  margin-bottom: 50px !important;
+}
+.rx-ma-tb-50 {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+.rx-ma-lr-50 {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+/* Define 55px Margin */
+.rx-ma-55 {
+  margin: 55px !important;
+}
+.rx-ma-to-55 {
+  margin-top: 55px !important;
+}
+.rx-ma-le-55 {
+  margin-left: 55px !important;
+}
+.rx-ma-ri-55 {
+  margin-right: 55px !important;
+}
+.rx-ma-bo-55 {
+  margin-bottom: 55px !important;
+}
+.rx-ma-tb-55 {
+  margin-top: 55px !important;
+  margin-bottom: 55px !important;
+}
+.rx-ma-lr-55 {
+  margin-left: 55px !important;
+  margin-right: 55px !important;
+}
+
+/* Define 60px Margin */
+.rx-ma-60 {
+  margin: 60px !important;
+}
+.rx-ma-to-60 {
+  margin-top: 60px !important;
+}
+.rx-ma-le-60 {
+  margin-left: 60px !important;
+}
+.rx-ma-ri-60 {
+  margin-right: 60px !important;
+}
+.rx-ma-bo-60 {
+  margin-bottom: 60px !important;
+}
+.rx-ma-tb-60 {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
+.rx-ma-lr-60 {
+  margin-left: 60px !important;
+  margin-right: 60px !important;
+}
+
+/* ====== PADDING ====== */
+.rx-pa-0 {
+  padding: 0 !important;
+}
