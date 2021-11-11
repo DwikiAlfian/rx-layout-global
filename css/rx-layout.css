@@ -9,6 +9,33 @@
   outline: none;
 }
 
+/* ====== POSITIONING ====== */
+.rx-pr{
+  position: relative !important;
+}
+.rx-pa{
+  position: absolute !important;
+}
+
+/* ====== DISPLAY ====== */
+.rx-db{
+  display: block !important;
+}
+
+/* ====== TEXT ====== */
+.rx-ta-le{
+  text-align: left !important;
+}
+.rx-ta-ri{
+  text-align: right !important;
+}
+.rx-ta-ce{
+  text-align: center !important;
+}
+.rx-ta-ju{
+  text-align: justify !important;
+}
+
 /* ======== FLEX ======== */
 /* Define Flex */
 .rx-fl {
