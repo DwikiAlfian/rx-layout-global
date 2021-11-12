@@ -10,29 +10,29 @@
 }
 
 /* ====== POSITIONING ====== */
-.rx-pr{
+.rx-pr {
   position: relative !important;
 }
-.rx-pa{
+.rx-pa {
   position: absolute !important;
 }
 
 /* ====== DISPLAY ====== */
-.rx-db{
+.rx-db {
   display: block !important;
 }
 
 /* ====== TEXT ====== */
-.rx-ta-le{
+.rx-ta-le {
   text-align: left !important;
 }
-.rx-ta-ri{
+.rx-ta-ri {
   text-align: right !important;
 }
-.rx-ta-ce{
+.rx-ta-ce {
   text-align: center !important;
 }
-.rx-ta-ju{
+.rx-ta-ju {
   text-align: justify !important;
 }
 
@@ -1270,6 +1270,14 @@
 @media (max-width: 1400px) {
   /* Will Seized when hit 1440px */
 
+  /* === DISPLAY === */
+  .rx-1400-no {
+    display: none !important;
+  }
+  .rx-1400-un {
+    display: unset !important;
+  }
+
   /* == FLEX== */
   .rx-1400-fl {
     display: flex !important;
@@ -1341,6 +1349,13 @@
 }
 @media (max-width: 1300px) {
   /* Will Seized when hit 1300px */
+  /* === DISPLAY === */
+  .rx-1300-no {
+    display: none !important;
+  }
+  .rx-1300-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-1300-fl {
     display: flex !important;
@@ -1412,6 +1427,13 @@
 }
 @media (max-width: 1200px) {
   /* Will Seized when hit 1200px */
+  /* === DISPLAY === */
+  .rx-1200-no {
+    display: none !important;
+  }
+  .rx-1200-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-1200-fl {
     display: flex !important;
@@ -1483,6 +1505,13 @@
 }
 @media (max-width: 1100px) {
   /* Will Seized when hit 1100px */
+  /* === DISPLAY === */
+  .rx-1100-no {
+    display: none !important;
+  }
+  .rx-1100-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-1100-fl {
     display: flex !important;
@@ -1554,6 +1583,13 @@
 }
 @media (max-width: 1000px) {
   /* Will Seized when hit 1000px */
+  /* === DISPLAY === */
+  .rx-1000-no {
+    display: none !important;
+  }
+  .rx-1000-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-1000-fl {
     display: flex !important;
@@ -1625,6 +1661,13 @@
 }
 @media (max-width: 900px) {
   /* Will Seized when hit 900px */
+  /* === DISPLAY === */
+  .rx-900-no {
+    display: none !important;
+  }
+  .rx-900-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-900-fl {
     display: flex !important;
@@ -1696,6 +1739,13 @@
 }
 @media (max-width: 800px) {
   /* Will Seized when hit 800px */
+  /* === DISPLAY === */
+  .rx-800-no {
+    display: none !important;
+  }
+  .rx-800-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-800-fl {
     display: flex !important;
@@ -1767,6 +1817,13 @@
 }
 @media (max-width: 700px) {
   /* Will Seized when hit 700px */
+  /* === DISPLAY === */
+  .rx-700-no {
+    display: none !important;
+  }
+  .rx-700-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-700-fl {
     display: flex !important;
@@ -1838,6 +1895,13 @@
 }
 @media (max-width: 600px) {
   /* Will Seized when hit 600px */
+  /* === DISPLAY === */
+  .rx-600-no {
+    display: none !important;
+  }
+  .rx-600-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-600-fl {
     display: flex !important;
@@ -1909,6 +1973,13 @@
 }
 @media (max-width: 500px) {
   /* Will Seized when hit 500px */
+  /* === DISPLAY === */
+  .rx-500-no {
+    display: none !important;
+  }
+  .rx-500-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-500-fl {
     display: flex !important;
@@ -1980,6 +2051,13 @@
 }
 @media (max-width: 400px) {
   /* Will Seized when hit 400px */
+  /* === DISPLAY === */
+  .rx-400-no {
+    display: none !important;
+  }
+  .rx-400-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-400-fl {
     display: flex !important;
@@ -2051,6 +2129,13 @@
 }
 @media (max-width: 300px) {
   /* Will Seized when hit 300px */
+  /* === DISPLAY === */
+  .rx-300-no {
+    display: none !important;
+  }
+  .rx-300-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-300-fl {
     display: flex !important;
@@ -2122,6 +2207,13 @@
 }
 @media (max-width: 200px) {
   /* Will Seized when hit 200px */
+  /* === DISPLAY === */
+  .rx-200-no {
+    display: none !important;
+  }
+  .rx-200-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-200-fl {
     display: flex !important;
@@ -2193,6 +2285,13 @@
 }
 @media (max-width: 100px) {
   /* Will Seized when hit 100px */
+  /* === DISPLAY === */
+  .rx-100-no {
+    display: none !important;
+  }
+  .rx-100-un {
+    display: unset !important;
+  }
   /* == FLEX== */
   .rx-100-fl {
     display: flex !important;
