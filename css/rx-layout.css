@@ -1308,7 +1308,7 @@ a {
   height: 100vh !important;
 }
 .rx-vh-mo {
-  /* Will be established soon */
+  height: calc(var(--vh) * 100);
 }
 
 /* ================================ */
