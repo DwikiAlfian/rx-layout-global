@@ -187,6 +187,41 @@ a {
   grid-template-columns: calc(90% - 10px) calc(10% - 10px) !important;
   column-gap: 20px;
 }
+.rx-gr-co-150-auto {
+  display: grid !important;
+  grid-template-columns: 150px auto;
+  column-gap: 20px;
+}
+.rx-gr-co-200-auto {
+  display: grid !important;
+  grid-template-columns: 200px auto;
+  column-gap: 20px;
+}
+.rx-gr-co-250-auto {
+  display: grid !important;
+  grid-template-columns: 250px auto;
+  column-gap: 20px;
+}
+.rx-gr-co-300-auto {
+  display: grid !important;
+  grid-template-columns: 300px auto;
+  column-gap: 20px;
+}
+.rx-gr-co-350-auto {
+  display: grid !important;
+  grid-template-columns: 350px auto;
+  column-gap: 20px;
+}
+.rx-gr-co-400-auto {
+  display: grid !important;
+  grid-template-columns: 400px auto;
+  column-gap: 20px;
+}
+.rx-gr-co-450-auto {
+  display: grid !important;
+  grid-template-columns: 450px auto;
+  column-gap: 20px;
+}
 
 /* ====== MARGIN ====== */
 /* Universal Child Margin */
