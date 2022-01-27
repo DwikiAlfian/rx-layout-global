@@ -20,6 +20,14 @@
   outline: none;
   font-family: "Medium";
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bold";
+}
 a {
   text-decoration: none;
   display: block;
@@ -116,6 +124,14 @@ a {
 
 /* ======= GRID ======= */
 /* Column Set for Grid */
+.rx-gr-rg-15 {
+  display: grid !important;
+  row-gap: 15px;
+}
+.rx-gr-rg-20 {
+  display: grid !important;
+  row-gap: 20px;
+}
 .rx-gr-co {
   display: grid !important;
   grid-template-columns: auto !important;
@@ -187,37 +203,42 @@ a {
   grid-template-columns: calc(90% - 10px) calc(10% - 10px) !important;
   column-gap: 20px;
 }
-.rx-gr-co-150-auto {
+.rx-gr-co-au-150 {
+  display: grid !important;
+  grid-template-columns: auto 150px !important;
+  column-gap: 20px;
+}
+.rx-gr-co-150-au {
   display: grid !important;
   grid-template-columns: 150px auto;
   column-gap: 20px;
 }
-.rx-gr-co-200-auto {
+.rx-gr-co-200-au {
   display: grid !important;
   grid-template-columns: 200px auto;
   column-gap: 20px;
 }
-.rx-gr-co-250-auto {
+.rx-gr-co-250-au {
   display: grid !important;
   grid-template-columns: 250px auto;
   column-gap: 20px;
 }
-.rx-gr-co-300-auto {
+.rx-gr-co-300-au {
   display: grid !important;
   grid-template-columns: 300px auto;
   column-gap: 20px;
 }
-.rx-gr-co-350-auto {
+.rx-gr-co-350-au {
   display: grid !important;
   grid-template-columns: 350px auto;
   column-gap: 20px;
 }
-.rx-gr-co-400-auto {
+.rx-gr-co-400-au {
   display: grid !important;
   grid-template-columns: 400px auto;
   column-gap: 20px;
 }
-.rx-gr-co-450-auto {
+.rx-gr-co-450-au {
   display: grid !important;
   grid-template-columns: 450px auto;
   column-gap: 20px;
