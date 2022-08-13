@@ -35,15 +35,15 @@ a {
 }
 
 /* ====== POSITIONING ====== */
-.rx-pr {
+.rx-po-re {
   position: relative !important;
 }
-.rx-pa {
+.rx-po-ab {
   position: absolute !important;
 }
 
 /* ====== DISPLAY ====== */
-.rx-db {
+.rx-di-bl {
   display: block !important;
 }
 
@@ -103,6 +103,14 @@ a {
 .rx-fl-jc-sb {
   display: flex !important;
   justify-content: space-between !important;
+}
+.rx-fl-jc-se {
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+.rx-fl-jc-sa {
+  display: flex !important;
+  justify-content: space-around !important;
 }
 
 /* Flex Direction */
@@ -1356,6 +1364,12 @@ a {
 .rx-mw-1400 {
   max-width: 1400px !important;
 }
+.rx-mw-1500 {
+  max-width: 1500px !important;
+}
+.rx-mw-1600 {
+  max-width: 1600px !important;
+}
 
 /* ==== HEIGHT ==== */
 .rx-fh {
@@ -1365,7 +1379,41 @@ a {
   height: 100vh !important;
 }
 .rx-vh-mo {
-  height: calc(var(--vh) * 100);
+  height: calc(var(--vh) * 100) !important;
+}
+
+/* ===== OBJECT POSITIONING ===== */
+.rx-fl-wr {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 15px !important;
+  flex-wrap: wrap !important;
+}
+
+/* ===== GAP ===== */
+.rx-ga-5 {
+  gap: 5px !important;
+}
+.rx-ga-10 {
+  gap: 10px !important;
+}
+.rx-ga-15 {
+  gap: 15px !important;
+}
+.rx-ga-20 {
+  gap: 20px !important;
+}
+.rx-ga-25 {
+  gap: 25px !important;
+}
+.rx-ga-30 {
+  gap: 30px !important;
+}
+.rx-ga-35 {
+  gap: 35px !important;
+}
+.rx-ga-40 {
+  gap: 40px !important;
 }
 
 /* ================================ */
