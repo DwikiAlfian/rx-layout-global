@@ -61,6 +61,11 @@ a {
   text-align: justify !important;
 }
 
+/* ====== LIST STYLE TYPE ====== */
+.rx-ls-ty-no{
+  list-style-type: none !important;
+}
+
 /* ======== FLEX ======== */
 /* Define Flex */
 .rx-fl-in {
@@ -1339,6 +1344,21 @@ a {
 }
 .rx-vw {
   width: 100vw !important;
+}
+.rx-mw-200 {
+  max-width: 200px !important;
+}
+.rx-mw-300 {
+  max-width: 300px !important;
+}
+.rx-mw-400 {
+  max-width: 400px !important;
+}
+.rx-mw-500 {
+  max-width: 500px !important;
+}
+.rx-mw-600 {
+  max-width: 600px !important;
 }
 .rx-mw-700 {
   max-width: 700px !important;
